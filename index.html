@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+</head>
+<body>
+    <div id="content">
+	<center><table><tr><td>
+        <form action="propertyincity.php" method="get">
+            <fieldset>
+                <legend> Properties in a city </legend>
+                <!-- Text input-->
+                <div>
+                    <label> Put a city: </label>
+                    <input name="city"">
+                </div>
+
+                <!-- Button -->
+                <div>
+                    <input type="submit" value="Consult">
+                </div>
+
+            </fieldset>
+        </form>
+	</td></tr></table></center>
+    </div>
+	<hr>
+    <div id="content">
+	<center><table><tr><td>
+        <form action="priceavg.php" method="get">
+            <fieldset>
+                <legend> Price average by neighbourhood </legend>
+
+                <!-- Text input-->
+                <div>
+                    <label> Put a neighbourhood: </label>
+                    <input name="neighbourhood">
+                </div>
+
+                <!-- Button -->
+                <div>
+                    <input type="submit" value="Consult">
+                </div>
+
+            </fieldset>
+        </form>
+	</td></tr></table></center>
+    </div>
+	<hr>
+    <div id="content">
+	<center><table><tr><td>
+        <form action="priceproperty.php" method="get">
+            <fieldset>
+                <legend> Properties by city with price lower than input ordered by host seniorty  </legend>
+
+                <!-- Text input-->
+                <div style="display: inline-block;">
+                    <label> City name: </label>
+                    <input name="name" hint="city">
+                </div>
+                <div style="display: inline-block;">
+                    <label> Price to check: </label>
+                    <input name="price">
+                </div>
+
+                <!-- Button -->
+                <div>
+                    <input type="submit" value="Consult">
+                </div>
+
+            </fieldset>
+        </form>
+	</td></tr></table></center>
+    </div>
+</body>
+</html>
